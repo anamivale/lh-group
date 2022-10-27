@@ -1,5 +1,79 @@
 .landing-page{
-    background-color: blue;
     width: 100vw;
     height: 100vh;
+    background-image: url('../images/background.jpg');
+    background-position: center;
+    background-size: cover;
 }
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 44px;
+
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    color: white;
+}
+.logo{
+    font-size: medium;
+}
+
+
+.active{
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+}
+.active:active{
+    text-decoration: underline;
+    color: blue;
+}
+
+.nav{
+    color: white;
+    background: black;
+}
+.solgun{
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+
+}
+h1, h3{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.reserve{
+    padding: 10px 20px;
+    color: white;
+    background-color: blue;
+    border: none;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+/* 
+about css
+ */
+
+ .about-p{
+    height: 200px;
+    width: 320px;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 0 150px 0 150px;
+    background: linear-gradient(blue, green, purple);
+ }
+
+ .about-page{
+    display: flex;
+ }
