@@ -77,3 +77,13 @@ about css
  .about-page{
     display: flex;
  }
+
+ @media only screen  and (max-width:700px) {
+    .links{
+        display: block;
+        padding:  0;
+        justify-content: flex-start;
+        color: blue;
+    }
+    
+ }
