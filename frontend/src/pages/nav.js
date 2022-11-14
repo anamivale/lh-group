@@ -16,10 +16,10 @@ function Nav() {
           <NavLink className="active" to="/dishes">
             Dishes
           </NavLink>
-          <NavLink className="active" to="/about">
+          <NavLink className="active" to="/specialdishes">
             Special Dishes
           </NavLink>
-          <NavLink className="active" to="/about">
+          <NavLink className="active" to="/reservation">
             Reservation
           </NavLink>
         </div>

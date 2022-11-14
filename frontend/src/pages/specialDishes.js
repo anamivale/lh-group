@@ -6,7 +6,7 @@ import Dish3 from "../images/mandazi.jpg"
 import Dish4 from "../images/nyama.jpg"
 import "../css/dishes.css"
 
-function Dishes() {
+function SpecialDishes() {
   return (
     <div>
       <Nav />
@@ -63,4 +63,4 @@ function Dishes() {
   )
 }
 
-export default Dishes
+export default SpecialDishes

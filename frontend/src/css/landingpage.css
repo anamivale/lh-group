@@ -70,7 +70,7 @@ about css
     width: 320px;
     padding: 20px;
     margin: 50px;
-    border-radius: 0 150px 0 150px;
+    border-radius: 0 50% 50% 50%;
     background: linear-gradient(blue, green, purple);
  }
 
@@ -84,6 +84,9 @@ about css
         padding:  0;
         justify-content: flex-start;
         color: blue;
+    }
+    .about-page{
+        display: block;
     }
     
  }
