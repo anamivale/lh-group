@@ -1,5 +1,6 @@
 import React from "react"
 import "../css/landingpage.css"
+import Logo from "../images/aliya.jpg"
 import { NavLink } from "react-router-dom"
 
 function Nav() {
@@ -7,7 +8,7 @@ function Nav() {
     <div>
       <div className="nav">
         <div>
-          <h1 className="logo">Restaurant</h1>
+          <img src={Logo} alt="" className="logo" />
         </div>
         <div className="links">
           <NavLink className="active" to="/about">
